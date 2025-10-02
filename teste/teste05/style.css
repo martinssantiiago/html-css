@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+  background-color: rgb(201, 194, 194);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  color: rgb(248, 248, 46);
+}
+
+header > h1 {
+  text-align: center;
+}
+
+img{
+  width: 400px;
+  height: 400px;
+}
+
+.centralizar{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+}
+
+main > img{
+  width: 40px;
+  height: 40px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  margin-top: auto ;
+ background-color: aliceblue;
+  
+}
+
+.insta{
+ width:40px ;
+  height:40px ;
+  display: flex;
+  margin-top: 60px;
+  margin-bottom:100px ;
+  margin-left: 500px;
+  margin-right: auto;
+}
+
+.tiktok{
+  
+  
+}
+
+
+p > a{
+  color: yellow;
+}

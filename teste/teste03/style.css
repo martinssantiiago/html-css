@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DynaPuff:wght@400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+ body{
+    background-color: #CACACA;
+}
+
+h1{
+    font-family: Bodoni Moda ;
+    color: #00747C;
+    text-align: center;
+    text-shadow: 2px 2px 2px #00747c4b;
+}
+
+h2{
+    color:#00747C;
+    text-align: center;
+    text-shadow: 2px 2px 4px #00747c1a;
+    font-family: Bodoni Moda ;
+}
+ main{
+    background-color:white;
+    box-shadow: 2px 3px 2px #00747c4b;
+    border-radius: 20px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+ }
+
+ p{
+    text-align: center;
+    font-size: 2em;
+ }
+
+ a{
+    color: #00BBC9;
+ }
+
+ img{
+   position: absolute;
+   top: 26%;
+   left: 25%;
+   transform: translate(-50%, -50%);
+ }
+
+ 

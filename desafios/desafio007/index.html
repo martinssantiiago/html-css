@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem flexivel</title>
+  <link rel="shortcut icon" href="../imagens/Elegantthemes-Beautiful-Flat-Bolt.512 (1).png" type="image/x-icon">
+  <style>
+    body{
+        background-color: darkgray;
+    }
+  </style>
+</head>
+<body>
+    <h1>imagem flexivel</h1>
+    <p>voce esta vendo uma imagem completa?experimente ampliar o tamanho da janela para aproveitar a melhor experiencia</p>
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens/carti-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/carti-m.png" type="image/png">
+    <img src="imagens/carti-g.png" alt="iamgem flexivel">
+  </picture>
+</html>

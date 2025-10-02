@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em HTML5</title>
+    <link rel="shortcut icon" href="Elegantthemes-Beautiful-Flat-Bolt.512 (1).png" type="image/x-icon">
+    <style>
+        body{
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+<h1>imagens dinamicas</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis doloremque cum voluptate rerum magnam error, id accusantium omnis praesentium. Laborum fugiat delectus libero neque, officiis veniam corporis ipsam eius ex.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+     <img src="imagens/g.png" alt="imagem grande para pc ou tvs">
+    </picture>
+  <h1>previa nova doa alee & senndy</h1>
+  <p>toque na faixa para reproduzir</p>
+  <audio src="midia/alee.mp3" controls autoplay loop></audio>
+  <audio>
+    <source src="midia/alee.mp3" type="audio/mpeg">
+    <source src="midia/alee.ogg" type="audio/ogg">
+    <source src="midia/alee.wav" type="audio/wav">
+  </audio>
+  <p>infelizmente seu navegador nao suporta audio</p>
+  <a href="midia/alee.mp3">clique AQUI baixar o arquivo MP3</a>
+</body>
+</html>
