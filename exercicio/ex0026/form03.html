@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+   <style>
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1 {
+        position: relative;
+        left: 40px ;
+    }
+   </style>
+<body>
+    <h1>login</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="inome">Usuario:</label>
+            <input type="text" name="nome" id="inome" placeholder="usuario" size="10" minlength="8" maxlength="10" required autocomplete="username" >
+        </p>
+        <p>
+            <label for="isen">Senha</label>
+            <input type="password" name="sen" id="isen" size="10" minlength="8" maxlength="10" placeholder="senha" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
