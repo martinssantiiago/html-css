@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+#conteiner {
+    background-size: 100% 100%;
+    position: relative;
+    height: 96vh;
+    background-color: darkgray;
+    padding: 20px;
+}
+
+#conteudo {
+      
+      background-size: 100% 100%;
+
+      position: absolute;
+      height: 400px;
+      width: 320px;
+      background-color: white;
+
+
+      left:50%;
+      top:50% ;
+
+      transform: translate(-50%, -50%);
+
+      border-radius: 30px;
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.247);
+}
+
+#conteudo:hover {
+    height: 410px;
+    width: 330px;
+    transition: .4s ease-in-out;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2em;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.534);
+}
+
+.artista {
+   font-size: 0.6em;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.nome {
+    text-align: center;
+    font-size: 1.8em;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.caixa1:hover {
+    background-color: rgba(211, 211, 211, 0.493);
+    margin: 10px;
+    transition: .3s ease-in-out;
+    border-radius: 10px;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.caixa2:hover {
+    background-color: rgba(211, 211, 211, 0.493);
+    margin: 10px;
+     transition: .3s ease-in-out;
+    border-radius: 10px;
+    padding: 1px;
+    cursor: pointer;
+}
+.caixa3:hover {
+     background-color: rgba(211, 211, 211, 0.493);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 1px;
+    cursor: pointer;
+     transition: .3s ease-in-out;
+}
+
+article {
+    padding: 9px;
+}
+img {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+
+    left: 50%;
+    top: 50%;
+    
+    transform: translate(-260%, -425%);
+}
+
+

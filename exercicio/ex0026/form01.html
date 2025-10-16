@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fromulario</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: lightcoral;
+        }
+
+        h1 {
+            background-color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            width: 350px;
+            border: 1px solid black;
+        }
+
+        form {
+            padding: 10px;
+            width: 100px;
+        }
+
+        input {
+            border-radius:8px ;
+            padding: 4px;
+        }
+
+        p {
+            padding: 10px;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>meu primeiro formulario</h1>
+    <form action="cadastro.php" method="post">
+        <p><label for="inome">nome:</label> <input type="text" name="nome" id="inome"> </p>
+
+        <p><label for="isobrenome">sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"> </p>
+        <p><input type="submit" value="enviar"></p>
+    </form>
+</body>
+</html>

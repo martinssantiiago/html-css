@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .cnome {
+            background-color: rgb(173, 170, 170);
+        }
+
+        .csexo {
+            background-color: lightblue;
+        }
+
+        .cidade {
+            background-color: lightcoral;
+        }
+
+        .cprofissao {
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <!-- span para marcar um grupo de colunas -->
+            <col class="cnome">  
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissao">
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissao</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>claudio</td>
+            <td>m</td>
+            <td>20</td>
+            <td>prediero</td>
+        </tr>
+        <tr>
+            <td>gustavo</td>
+            <td>m</td>
+            <td>20</td>
+            <td>dev</td>
+        </tr>
+        <tr>
+            <td>andre</td>
+            <td>m</td>
+            <td>20</td>
+            <td>palhaço</td>
+        </tr>
+        <tr>
+            <td>maria</td>
+            <td>f</td>
+            <td>20</td>
+            <td>enfermerio</td>
+        </tr>
+        <tr>
+            <td>fernadno</td>
+            <td>m</td>
+            <td>20</td>
+            <td>caminhoneiro</td>
+        </tr>
+    </table>
+</body>
+</html>

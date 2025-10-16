@@ -3,12 +3,18 @@
 
 
 body{
-    background-color: rgba(0, 0, 0, 0.774);
+   background-image: url(carti.image.webp);
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
 }
 
 header{
-    background-color: white;
+   background-image: url(wallpaper005.jpg);
+   background-position: center center;
+   background-repeat: repeat;
     text-align: center;
     margin: -25px;
     padding: 5px;
@@ -48,6 +54,7 @@ article{
 }
 
 .caixa1{
+    display: inline-block;
 text-align: justify;
 text-align: center;
 background-color: rgb(240, 248, 255);
