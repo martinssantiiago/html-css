@@ -33,9 +33,10 @@ menu > ul > li > a {
     text-decoration: none;
     text-align: center;
     color: white;
+    margin-left: 5px;
+    margin-bottom: 5px;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.404);
-    border-top: 1px solid black;
 }
 
  menu > ul > li > a:hover {
