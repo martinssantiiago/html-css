@@ -40,6 +40,7 @@ section {
     left: 0;
     right: 0;
     border-bottom: var(--border);
+    background-color: black;
 }
 
 .header section {
@@ -92,7 +93,7 @@ section {
 }
 
 .home-container {
-    background: url(../imagens/home-img.jpg);
+    background: url(../imagens/yawder-tdb-bg.jpg);
     height: 100vh;
     background-position: center center;
     background-size: cover;
