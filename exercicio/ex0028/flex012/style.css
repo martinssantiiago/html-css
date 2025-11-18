@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+    width: 300px;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+h2 {
+    margin-bottom: 10px;
+    line-height: 1.2em;
+    text-align: left;
+}
+
+header, section.normal {
+    padding: 20px;
+}
+
+
+section.flex-content {
+    padding: 10px;
+    background-color: lightgrey;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+article.text-midia {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+article.midia-text {
+  display: flex;
+  flex-flow: row wrap-reverse;
+  justify-content: space-between;
+}
+
+article > div.text {
+    flex: 1 1 500px;
+}
+
+article > div.midia {
+    flex: 1 0 400px;
+}
+
+div.midia > img {
+    display: block;
+    margin: auto;
+}
+
+div.midia > iframe {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+footer {
+   background-color: lightgrey;
+
+}
+
+footer > p {
+    text-align: center;
+}
+
+footer > p > a {
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    color: rgb(109, 109, 109);
+    text-decoration: underline;
+}
+
