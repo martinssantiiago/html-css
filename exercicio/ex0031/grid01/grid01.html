@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        body {
+            background-color: rgba(135, 206, 250, 0.205);
+        }
+
+        div.conteiner {
+            border: 2px solid rgb(1, 46, 243);
+            height: 900px;
+            display: grid;
+            grid-template: auto auto auto  / auto auto auto ;
+            gap: 10px;
+            place-items: stretch stretch;
+            place-content: end start ;
+        }
+
+        div.item {
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+            background-color: rgba(211, 211, 211, 0.801);
+            border-radius: 10px;
+        }
+
+        div > p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+       <div class="item">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sunt? Ab eum consequatur quae laboriosam ipsum incidunt vel voluptate quia omnis iste, ipsam fuga tempora reprehenderit? Impedit, expedita labore? Nulla.</p>
+       </div>
+         <div class="item">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sunt? Ab eum consequatur quae laboriosam ipsum incidunt vel voluptate quia omnis iste, ipsam fuga tempora reprehenderit? Impedit, expedita labore? Nulla.</p>
+       </div>
+         <div class="item">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sunt? Ab eum consequatur quae laboriosam ipsum incidunt vel voluptate quia omnis iste, ipsam fuga tempora reprehenderit? Impedit, expedita labore? Nulla.</p>
+       </div>
+         <div class="item">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sunt? Ab eum consequatur quae laboriosam ipsum incidunt vel voluptate quia omnis iste, ipsam fuga tempora reprehenderit? Impedit, expedita labore? Nulla.</p>
+       </div>
+         <div class="item">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sunt? Ab eum consequatur quae laboriosam ipsum incidunt vel voluptate quia omnis iste, ipsam fuga tempora reprehenderit? Impedit, expedita labore? Nulla.</p>
+       </div>
+         <div class="item">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sunt? Ab eum consequatur quae laboriosam ipsum incidunt vel voluptate quia omnis iste, ipsam fuga tempora reprehenderit? Impedit, expedita labore? Nulla.</p>
+       </div>
+         <div class="item">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sunt? Ab eum consequatur quae laboriosam ipsum incidunt vel voluptate quia omnis iste, ipsam fuga tempora reprehenderit? Impedit, expedita labore? Nulla.</p>
+       </div>
+          <div class="item">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sunt? Ab eum consequatur quae laboriosam ipsum incidunt vel voluptate quia omnis iste, ipsam fuga tempora reprehenderit? Impedit, expedita labore? Nulla.</p>
+       </div>
+          <div class="item">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sunt? Ab eum consequatur quae laboriosam ipsum incidunt vel voluptate quia omnis iste, ipsam fuga tempora reprehenderit? Impedit, expedita labore? Nulla.</p>
+       </div>
+      
+    </div>
+</body>
+</html>
